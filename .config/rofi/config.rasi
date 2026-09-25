@@ -1,0 +1,114 @@
+configuration {
+	modi: "drun";
+	show-icons: true;
+	display-drun: "Apps";
+	drun-display-format: "{name}";
+	font: "JetBrainsMono Nerd Font 12";
+}
+
+* {
+	bg: #11111b;
+	fg: #cdd6f4;
+	purple: #bd93f9;
+	muted: #585b70;
+}
+
+window {
+	width: 40%;
+	border: 2px;
+	border-color: @purple;
+	border-radius: 12px;
+	background-color: @bg;
+}
+
+mainbox {
+	padding: 15px;
+	background-color: @bg;
+}
+
+inputbar {
+	padding: 10px;
+	margin: 0px 0px 10px 0px;
+	background-color: @bg;
+	text-color: @fg;
+}
+
+prompt {
+	text-color: @purple;
+}
+
+entry {
+	text-color: @fg;
+}
+
+listview {
+	lines: 8;
+	spacing: 5px;
+	background-color: @bg;
+}
+
+element {
+	padding: 8px;
+	border-radius: 8px;
+	background-color: @bg;
+	text-color: @fg;
+}
+
+element normal.normal {
+	background-color: @bg;
+	text-color: @fg;
+}
+
+element alternate.normal {
+	background-color: @bg;
+	text-color: @fg;
+}
+
+element normal.active,
+element alternate.active {
+	background-color: @bg;
+	text-color: @fg;
+}
+
+element selected.normal,
+element selectd.active {
+	background-color: @purple;
+	text-color: @bg;
+}
+
+element text {
+	background-color: inherit;
+	text-color: inherit;
+}
+
+element-icon {
+	size: 24px;
+	margin: 0px 10px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
